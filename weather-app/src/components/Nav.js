@@ -24,7 +24,7 @@ class Nav extends Component{
         return(
             <nav className="nav-wrapper #274C77">
                 <div className="container">
-                    <div className="brand-logo">hey there my dude</div>
+                    <div className="brand-logo">Weather</div>
                     <div className="right">
                         <form onSubmit={this.handleSubmit}>
                             <input type="text" id="location" placeholder='Location, eg. Toronto, CA' onChange={this.handleChange}/>
