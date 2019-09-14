@@ -6,7 +6,8 @@ import {connect} from 'react-redux'
 import {setWeather} from '../actions/weatherActions'
 import {toggleSearch} from '../actions/searchActions'
 
-const api = '0827491beb61d287a646f2e455e0f6f3';
+// INPUT PERSONAL API KEY FOR OPENWEATHER
+const api = '';
 
 class WeatherModule extends Component {
     state = {
